@@ -29,3 +29,10 @@ function objToSql(ob) {
 
     return arr.toString();
 }
+
+//object for SQL statements
+var orm = {
+    all: function(tableInput, cb) {
+        var queryString
+    }
+}
