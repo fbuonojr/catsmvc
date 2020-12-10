@@ -8,3 +8,14 @@ var connection = mysql.createConnection({
     password: process.env.DB_PASS,
     database: "cat_db"
 });
+
+//connect
+connection.connect(function(err) {
+    if(err) {
+        console.error("error connectiong: " + err.stack);
+        return;
+    }
+    console.log("connected as id " + connection.threadId);
+});
+
+module.exports = connection;
