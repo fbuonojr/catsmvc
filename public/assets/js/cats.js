@@ -23,7 +23,7 @@ $(function() {
 
         var newCat = {
             name: $("#ca").val().trim(),
-            $sleepy: $("[name=sleepy]:checked").val().trim()
+            sleepy: $("[name=sleepy]:checked").val().trim()
         };
 
         $.ajax("/api/cats", {
