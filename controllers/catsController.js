@@ -16,7 +16,7 @@ router.get("/", function(req, res) {
     });
 });
 
-router.post("api/cats", function(req, res) {
+router.post("/api/cats", function(req, res) {
     cat.create(["name", "sleepy"], [req.body.name, req.body.sleepy], function(result) {
         res.json({ id: result.insertId });
     });
