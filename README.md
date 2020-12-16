@@ -1,13 +1,7 @@
-# Project Name
+# Cats MVC
 
-#### Technologies used: 
+#### Technologies Used: MySQL, JavaScript, Express, Handlebars, CSS, jQuery
 
-This application does . . . . .
-
-How to use
-
-* link to deployed application:
-
-![](./images/)
+This application is a very simple MVC example.
 
 ###### Frank Buono- this app was created as practice using an activity from my bootcamp class
